@@ -1,0 +1,47 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+.hebergements {
+    position: absolute;
+    left: 36.22%;
+    right: 34.12%;
+    top: 0%;
+    bottom: 0%;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+.img {
+    position: absolute;
+    width: 61.09px;
+    height: 19px;
+    left: 0px;
+    top: 0px;
+}
+
+.navbar {
+    display: flex;
+    position: absolute;
+    width: 381px;
+    height: 19px;
+    left: 982px;
+    top: 48px;
+}
+
+.FilterBar  {
+    position: absolute;
+    width: 914px;
+    height: 50px;
+    left: 62px;
+    top: 200px;
+}
+.Infobar {
+    position: absolute;
+    width: 447px;
+    height: 24px;
+    left: 59px;
+    top: 365px;
+}
