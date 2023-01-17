@@ -1,6 +1,43 @@
+* {
+    box-sizing: border-box;
+    font-family: "Raleway";
+    
+  }
+  .container {
+    max-width: 1400px;
+    margin: auto;
+  }
+  .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 body {
     font-family: 'Raleway', sans-serif;
     box-sizing: border-box;
+}
+.Menu {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 381px;
+    height: 19px;
+    left: 982px;
+    top: 48px;
+}
+.logo {
+    height: 19px;
+    margin-top: 35px;
+}
+h1 {
+  font-size: 22px;
+}
+h2 {
+  font-size: 16px;
+}
+p {
+  font-size: 16px;
 }
 .hebergements {
     position: absolute;
@@ -8,23 +45,72 @@ body {
     right: 34.12%;
     top: 0%;
     bottom: 0%;
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
+    font-family: Raleway;
+    font-weight: 400;
+    color: blue;
+    text-align: center;
 }
-.img {
+.activites {
+    color: black;
+    font-weight: 400;
+    text-align: center;
+}
+.nav.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+.nav-link {
+    color: #0065FC;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+li {
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.MainLocation {
     position: absolute;
-    width: 61.09px;
-    height: 19px;
-    left: 0px;
-    top: 0px;
+    width: 332px;
+    height: 49px;
+    left: 55px;
+    top: 199px;
+}
+.Formulaire{
+  width: 332px;
+  height: 49px;
+  left: 55px;
+  top: 199px;
+}
+.formulaire{
+    border: 1px solid #F2F2F2;
+    border-radius: 15px;
+    background: #FFFFFF;
+    
+}
+.button {
+  background: #0065FC;
+  border: 1px solid #0065FC;
+  border-radius: 0px 15px 15px 0px;
+  padding: 15px 16px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 18px;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 700;
 }
 
 .navbar {
     display: flex;
-    position: absolute;
+    justify-content: space-between;
+    position: row;
+    float: right;
     width: 381px;
     height: 19px;
     left: 982px;
@@ -32,6 +118,9 @@ body {
 }
 
 .FilterBar  {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
     position: absolute;
     width: 914px;
     height: 50px;
@@ -44,4 +133,117 @@ body {
     height: 24px;
     left: 59px;
     top: 365px;
+}
+
+.button {
+  background: #0065FC;
+  border: 1px solid #0065FC;
+  border-radius: 0px 15px 15px 0px;
+  padding: 15px 16px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 18px;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 700;
+}
+.champ{
+  font-weight: 700;
+}
+#info {
+  
+    display: flex;
+    align-items: center;
+    justify-content: flex-start
+    
+  }
+  .fa-solid {
+    color: #000000;
+  }
+  
+  .fa-icon {
+    font-size: 1.5em;
+    color:#0065fc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .titrefiltres {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .filtre {
+    border: 2px solid #D9D9D9;
+    border-radius: 35px;
+    padding: 8px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .filtres {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+  }
+  
+  .nomfiltre {
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 12px;
+    margin: 0px 20px 15px 15px;
+    display: flex;
+    align-items: center;
+  }
+  .log{
+    display: flex;
+    justify-content: space-between;
+    left: 2.24%;
+    right: 96.87%;
+    top: 0%;
+    bottom: 0%;
+  }
+  .fa-info{
+    display: flex;
+    align-items: center;
+    color:#0065fc;
+    
+  }
+  .infos{
+    display: flex;
+    align-items: center;
+    left: 35px;
+    top: 3px;
+  }
+
+  .footer{
+    display: flex;
+    flex-direction: row;
+    bottom: -6.28%;
+    background:white;
+    display: flex;
+    justify-content: center;
+    width: 1339px;
+  }
+  .Rectangle21{
+    display: flex;
+    justify-content: center;
+    background: #F2F2F2;
+    width: 1339px;
+    left: 41px;
+    right: 53px;
+    bottom: -10.84%;
+  }
+  .Footerblock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+.titre5{
+  font-size: 18px;
 }
