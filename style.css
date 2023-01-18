@@ -81,18 +81,22 @@ li {
     left: 55px;
     top: 199px;
 }
-.Formulaire{
-  width: 332px;
-  height: 49px;
-  left: 55px;
-  top: 199px;
+.fa-icon{
+  color: #000000;
 }
 .formulaire{
     border: 1px solid #F2F2F2;
+    background-color: #F2F2F2;
     border-radius: 15px;
-    background: #FFFFFF;
-    
+    width: 332px;
+    height: 49px;
+    left: 55px;
+    top: 199px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
 }
+
 .button {
   background: #0065FC;
   border: 1px solid #0065FC;
@@ -104,6 +108,22 @@ li {
   color: #FFFFFF;
   font-style: normal;
   font-weight: 700;
+  width: 132px;
+  height: 49px;
+  
+}
+.icon{
+  border-radius: 15px 0px 0px 15px;
+  background-color: #F2F2F2;
+  background: #F2F2F2;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  display: flex;
+  flex-direction: row;
+  padding-top: 14px;
+  
 }
 
 .navbar {
@@ -125,7 +145,7 @@ li {
     width: 914px;
     height: 50px;
     left: 62px;
-    top: 200px;
+    
 }
 .Infobar {
     position: absolute;
@@ -135,30 +155,24 @@ li {
     top: 365px;
 }
 
-.button {
-  background: #0065FC;
-  border: 1px solid #0065FC;
-  border-radius: 0px 15px 15px 0px;
-  padding: 15px 16px;
-  font-family: 'Raleway', sans-serif;
-  text-align: center;
-  font-size: 18px;
-  color: #FFFFFF;
-  font-style: normal;
-  font-weight: 700;
-}
 .champ{
   font-weight: 700;
+  width: 147px;
+  height: 49px;
 }
 #info {
-  
     display: flex;
     align-items: center;
-    justify-content: flex-start
-    
+    justify-content: flex-start;
   }
   .fa-solid {
     color: #000000;
+    width: 50px;
+    height: 49px;
+    align-items: center;
+    display: flex;
+   flex-direction: row;
+   justify-content: space-around;
   }
   
   .fa-icon {
@@ -183,13 +197,16 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    height: 50px;
   }
+  
   .filtres {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 70%;
+    width: 914px;
+    top: 280px;
   }
   
   .nomfiltre {
@@ -199,6 +216,7 @@ li {
     margin: 0px 20px 15px 15px;
     display: flex;
     align-items: center;
+
   }
   .log{
     display: flex;
@@ -226,15 +244,19 @@ li {
     flex-direction: row;
     bottom: -6.28%;
     background:white;
-    display: flex;
     justify-content: center;
-    width: 1339px;
+    width: 1440px;
+    height: 203px;
+    margin-top: 50px;
+    top: 1660px;
   }
   .Rectangle21{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: flex-start;
     background: #F2F2F2;
     width: 1339px;
+    height: 225px;
     left: 41px;
     right: 53px;
     bottom: -10.84%;
@@ -242,8 +264,10 @@ li {
   .Footerblock{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    line-height: 2;
   }
 .titre5{
   font-size: 18px;
+  font-weight: bold;
 }
