@@ -185,10 +185,7 @@ li {
    flex-direction: row;
    justify-content: space-around;
   }
-  .fa-location-dot{
-    color: #000000;
-    width: 4px;
-  }
+  
   .fa-icon {
     font-size: 1.5em;
     color:#0065fc;
@@ -297,6 +294,7 @@ li {
   .AffichePlus{
     size: 22px;
     font-weight: bold;
+    
   }
 
   .Offers_Sponsored{
@@ -320,8 +318,8 @@ li {
   .Stars{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    flex-basis: auto;
+    justify-content: flex-start;
+    
   }
   .fa-star{
     color: #0065FC;
