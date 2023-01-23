@@ -104,9 +104,7 @@ li {
     justify-content: center;
   
 }
-.fa-location-dot{
-  color: #000000;
-}
+
 .button {
   background: #0065FC;
   border: 1px solid #0065FC;
@@ -170,11 +168,6 @@ li {
   height: 49px;
   text-align: center;
 }
-#info {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-  }
   
   .fa-solid {
     color: #000000;
@@ -212,11 +205,8 @@ li {
     justify-content: center;
     height: 50px;
     align-items: center;
-    align-items: center;
   }
-  .filtre:hover {
-    background: #DEEBFF;
-}
+  
   .filtres {
     display: flex;
     flex-direction: row;
@@ -224,6 +214,7 @@ li {
     align-items: center;
     width: 914px;
     height: 50px;
+    margin-top: 20px;
   }
   
   .nomfiltre {
@@ -234,25 +225,91 @@ li {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-left: 2px;
   }
-  
-  .log{
+  .filtre1{
     display: flex;
-    justify-content: center
+    flex-direction: row;
+    justify-content: space-between;
+    width: 175px;
+    height: 48px;
+    border: 2px solid #D9D9D9;
+    border-radius: 35px;
+  }
+  .filtre1:hover {
+    background: #DEEBFF;
+}
+  .filtre2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 136px;
+    height: 48px;
+    border: 2px solid #D9D9D9;
+    border-radius: 35px;
+  }
+  .filtre2:hover {
+    background: #DEEBFF;
+}
+  .filtre3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 172px;
+    height: 48px;
+    border: 2px solid #D9D9D9;
+    border-radius: 35px;
+  }
+  .filtre3:hover {
+    background: #DEEBFF;
+}
+  .filtre4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 226px;
+    height: 50px;
+    border: 2px solid #D9D9D9;
+    border-radius: 35px;
+  }
+  .filtre4:hover {
+    background: #DEEBFF;
+}
+  .log{
+  display: flex;
+  justify-content: center;
+  border-radius: 100%;
+  color: #0065fc;
+  border: 2px solid #f2f2f2;
+  height: 27px;
+  width: 27px;
   }
   .fa-info{
-    display: flex;
-    align-items: center;
     color:#0065fc;
+    border: 1px;
+    top: 4px;
+    left: 10px;
+    margin-left: 9px;
+    margin-top: 5px;
+    font-size: 10px;
+    height: 20px;
+  
   }
 
   .infos{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     left: 35px;
     top: 3px;
+    margin-left: 10px;
   }
-
+  #info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+  }
   .Section_offers{
     display: flex;
     flex-direction: row;
@@ -282,6 +339,7 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: left;
+    margin-left: 40px;
   }
 .MarseilleHotel1{
   display: flex;
