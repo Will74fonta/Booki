@@ -293,7 +293,6 @@ li {
     margin-top: 5px;
     font-size: 10px;
     height: 20px;
-  
   }
 
   .infos{
@@ -337,22 +336,28 @@ li {
     size: 22px;
     font-weight: bold;
     display: flex;
+    margin-top: 42px;
     flex-direction: row;
     justify-content: left;
-    margin-left: 40px;
+    width: 738px;
+    height: 26px;
   }
 .MarseilleHotel1{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  
 }
 .MarseilleHotel2{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
   .AffichePlus{
     size: 22px;
     font-weight: bold;
-    
+    display: flex;
+    flex-direction: row;
   }
 
   .Offers_Sponsored{
@@ -361,28 +366,32 @@ li {
     justify-content: center;
     width: 420px;
     height: 625px;
-    left: 970px;
-    top: 427px;
     background: #F2F2F2;
     border-radius: 20px;
   }
-
+.PlusPopulairesL1{
+  display: flex;
+  flex-direction: row;
+  margin-left: 37px;
+  margin-right: 178px;
+  margin-top: 41px;
+}
   .Pluspopulaires{
     size: 22px;
     font-weight: bold;
     width: 205px;
-    left: 1007px;
+    
   }
   .Stars{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    
+    margin-left: 0px;
   }
   .fa-star{
     color: #0065FC;
-    width: 12px;
+    width: 20px;
     height: 12px;
+    
   }
   .Section_Activite{
     width: 1337px;
@@ -418,9 +427,11 @@ li {
     display: flex;
     flex-direction: column;
     border-radius: 15px;
+    background-color: #FFFFFF;
   }
   .AubergedelaCanebière{
     font-weight: bold;
+    margin-left: 16px;
   }
 .VieuxPort{
   font-weight: bold;
@@ -441,7 +452,7 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .Rectangle23{
   border-radius: 20px;
@@ -462,8 +473,9 @@ li {
   size: 16px;
   font-weight: bold;
 }
-.Prix{
+.prix{
   size: 14px;
+  margin-left: 16px;
 
 }
   .footer{
