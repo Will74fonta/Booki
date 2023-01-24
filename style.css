@@ -333,20 +333,19 @@ li {
   }
 
   .HebergementMarseille{
+    width: 880px;
     size: 22px;
     font-weight: bold;
-    display: flex;
     margin-top: 42px;
-    flex-direction: row;
-    justify-content: left;
-    width: 738px;
-    height: 26px;
+    margin-left: 40px;
   }
 .MarseilleHotel1{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  
+  flex-wrap: wrap;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 .MarseilleHotel2{
   display: flex;
@@ -354,10 +353,13 @@ li {
   justify-content: space-between;
 }
   .AffichePlus{
+    width: 880px;
     size: 22px;
     font-weight: bold;
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 44px;
   }
 
   .Offers_Sponsored{
@@ -374,24 +376,28 @@ li {
   flex-direction: row;
   margin-left: 37px;
   margin-right: 178px;
-  margin-top: 41px;
 }
   .Pluspopulaires{
     size: 22px;
     font-weight: bold;
     width: 205px;
-    
   }
   .Stars{
     display: flex;
     flex-direction: row;
-    margin-left: 0px;
+    
+    margin: 9px 0px 11px 16px;
+  }
+  .Stars1{
+    display: flex;
+    flex-direction: row;
+    
+    margin-bottom: 11px;
   }
   .fa-star{
     color: #0065FC;
     width: 20px;
     height: 12px;
-    
   }
   .Section_Activite{
     width: 1337px;
@@ -406,13 +412,12 @@ li {
     font-weight: bold;
     display: flex;
     flex-direction: row;
-    
   }
   .CardActivity{
     display: flex;
     justify-content: space-between;
     border-radius: 15px;
-    box-shadow: 0 3px 15px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%); ;
+    
   }
   .Rectangle19{
     display: flex;
@@ -422,30 +427,47 @@ li {
     width: 246px;
     height: 199px;
     border-radius: 20px;
+    box-shadow: 0px 3px 15px 0px #0000001A;
+
   }
   .Rectangle20{
     display: flex;
     flex-direction: column;
-    border-radius: 15px;
+    border-radius: 20px;
     background-color: #FFFFFF;
+    width: 246px;
+    height: 199px;
+    border-color: #F2F2F2;
+
+    box-shadow: 0px 3px 15px 0px #0000001A;
+
   }
   .AubergedelaCanebière{
     font-weight: bold;
     margin-left: 16px;
+    margin: 3px 0px 0px 16px;
   }
 .VieuxPort{
   font-weight: bold;
   left: 19px;
   top: 409px;
+  margin-bottom: 21px;
+  border-radius: 20px 20px 0px 0px;
 }
 .Fort{
   font-weight: bold;
+  margin-bottom: 21px;
+  
 }
 .Parc{
   font-weight: bold;
+  margin-bottom: 21px;
+  
 }
 .NotreDame{
   font-weight: bold;
+  margin-bottom: 21px;
+  
 }
 
 .CardSponsored{
@@ -457,10 +479,13 @@ li {
 .Rectangle23{
   border-radius: 20px;
   background-color: #FFFFFF;
+  
   display: flex;
   flex-direction: row;
   width: 343px;
   height: 143px;
+  margin-top: 33px;
+  box-shadow: 0px 3px 15px 0px #0000001A;
 }
 
 .Rectangle24{
@@ -475,19 +500,26 @@ li {
 }
 .prix{
   size: 14px;
-  margin-left: 16px;
-
+  margin: 9px 0px 0px 16px;
+}
+.Rectangle25{
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  width: 302px;
+  height: 445px;
+  border-color: #F2F2F2;
+border-radius: 20px;
+  box-shadow: 0px 3px 15px 0px #0000001A;
+ 
 }
   .footer{
     display: flex;
     flex-direction: row;
-    bottom: -6.28%;
     background:white;
-    justify-content: center;
-    width: 1440px;
-    height: 203px;
-    margin-top: 50px;
-    top: 1660px;
+    align-items: center;
+    margin-top: 61px;
   }
   .Rectangle21{
     display: flex;
@@ -496,8 +528,6 @@ li {
     background: #F2F2F2;
     width: 1339px;
     height: 225px;
-    left: 41px;
-    right: 53px;
     bottom: -10.84%;
   }
   .Footerblock{
