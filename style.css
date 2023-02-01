@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: "Raleway";
-    
+    font-family: "Raleway"; 
   }
   .container {
     max-width: 1400px;
@@ -16,6 +15,7 @@ body {
     font-family: 'Raleway', sans-serif;
     box-sizing: border-box;
 }
+
 .Menu {
     position: absolute;
     display: flex;
@@ -50,7 +50,6 @@ p {
     font-weight: 400;
     color: blue;
     text-align: center;
-    text-decoration: overline;
 }
 
 .activites {
@@ -62,13 +61,13 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    
 }
 .nav-link {
     color: #0065FC;
+    text-decoration: none;
 }
 .nav-link:hover {
-  padding-top: 22px;
+  
   border-top: 2px solid rgba(0, 101, 252, 1);
   color: #0065fc;
 }
@@ -102,7 +101,6 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: center;
-  
 }
 
 .button {
@@ -136,7 +134,6 @@ li {
 .navbar {
     display: flex;
     justify-content: space-between;
-    position: row;
     float: right;
     width: 381px;
     height: 19px;
@@ -167,6 +164,7 @@ li {
   width: 147px;
   height: 49px;
   text-align: center;
+  border: 0px;
 }
   
   .fa-solid {
@@ -309,7 +307,7 @@ li {
     justify-content: flex-start;
     margin-top: 20px;
   }
-  .Section_offers{
+  #Section_offers{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -334,10 +332,11 @@ li {
 
   .HebergementMarseille{
     width: 880px;
-    size: 22px;
+    font-size: 22px;
     font-weight: bold;
     margin-top: 42px;
     margin-left: 40px;
+    margin-bottom: 0px;
   }
 .MarseilleHotel1{
   display: flex;
@@ -346,6 +345,7 @@ li {
   flex-wrap: wrap;
   margin-left: 40px;
   margin-right: 40px;
+  
 }
 .MarseilleHotel2{
   display: flex;
@@ -354,7 +354,7 @@ li {
 }
   .AffichePlus{
     width: 880px;
-    size: 22px;
+    font-size: 18px;
     font-weight: bold;
     display: flex;
     flex-direction: row;
@@ -374,24 +374,24 @@ li {
 .PlusPopulairesL1{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   margin-left: 37px;
-  margin-right: 178px;
+  margin-right: 14px;
 }
   .Pluspopulaires{
-    size: 22px;
+    font-size: 22px;
     font-weight: bold;
     width: 205px;
   }
   .Stars{
     display: flex;
     flex-direction: row;
-    
     margin: 9px 0px 11px 16px;
+    font-size: 15px;
   }
   .Stars1{
     display: flex;
     flex-direction: row;
-    
     margin-bottom: 11px;
   }
   .fa-star{
@@ -399,7 +399,7 @@ li {
     width: 20px;
     height: 12px;
   }
-  .Section_Activite{
+  #Section_Activite{
     width: 1337px;
     height: 493px;
     left: 50px;
@@ -408,7 +408,7 @@ li {
     flex-direction: column
   }
   .ActivitesMarseille{
-    size: 22px;
+    font-size: 22px;
     font-weight: bold;
     display: flex;
     flex-direction: row;
@@ -417,7 +417,6 @@ li {
     display: flex;
     justify-content: space-between;
     border-radius: 15px;
-    
   }
   .Rectangle19{
     display: flex;
@@ -436,38 +435,40 @@ li {
     border-radius: 20px;
     background-color: #FFFFFF;
     width: 246px;
-    height: 199px;
     border-color: #F2F2F2;
-
     box-shadow: 0px 3px 15px 0px #0000001A;
-
   }
   .AubergedelaCanebière{
     font-weight: bold;
     margin-left: 16px;
-    margin: 3px 0px 0px 16px;
+    margin: 4px 0px 0px 16px;
+  }
+  .picture{
+  object-fit: cover;
+  width: 302px;
+  height: 390px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
   }
 .VieuxPort{
   font-weight: bold;
-  left: 19px;
-  top: 409px;
   margin-bottom: 21px;
-  border-radius: 20px 20px 0px 0px;
+  margin-left: 19px;
 }
 .Fort{
   font-weight: bold;
   margin-bottom: 21px;
-  
+  margin-left: 19px;
 }
 .Parc{
   font-weight: bold;
   margin-bottom: 21px;
-  
+  margin-left: 19px;
 }
 .NotreDame{
   font-weight: bold;
   margin-bottom: 21px;
-  
+  margin-left: 19px;
 }
 
 .CardSponsored{
@@ -479,7 +480,6 @@ li {
 .Rectangle23{
   border-radius: 20px;
   background-color: #FFFFFF;
-  
   display: flex;
   flex-direction: row;
   width: 343px;
@@ -495,36 +495,38 @@ li {
   flex-direction: row;
 }
 .Chambre{
-  size: 16px;
+  font-size: 16px;
   font-weight: bold;
 }
 .prix{
-  size: 14px;
+  font-size: 14px;
   margin: 9px 0px 0px 16px;
 }
 .Rectangle25{
   display: flex;
-  flex-direction: column;
-  border-radius: 20px;
+  flex-direction:column;
   background-color: #FFFFFF;
   width: 302px;
   height: 445px;
   border-color: #F2F2F2;
-border-radius: 20px;
   box-shadow: 0px 3px 15px 0px #0000001A;
- 
+  border-radius: 20px 20px 20px 20px;
 }
+
   .footer{
     display: flex;
     flex-direction: row;
     background:white;
     align-items: center;
     margin-top: 61px;
+    height: 191px;
+    
   }
   .Rectangle21{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 61px;
     background: #F2F2F2;
     width: 1339px;
     height: 225px;
@@ -533,10 +535,15 @@ border-radius: 20px;
   .Footerblock{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     line-height: 2;
+    margin: 50px 200px 0px 50px;
+    
   }
 .titre5{
   font-size: 18px;
   font-weight: bold;
 }
+
+  
+
