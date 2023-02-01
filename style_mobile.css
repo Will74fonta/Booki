@@ -1,0 +1,74 @@
+@media screen and (max-width: 767px){
+    .container {
+        max-width: 467px;
+        height: 3950px;
+      }
+     
+      .logo {
+        margin-top: 9.53px;
+    }
+    .P1 {
+      margin-left: 10px;
+      align-content: center;
+      width: 100%;
+    }
+    h1 {
+      text-align: center;
+    }
+    p{
+      text-align: center;
+    }
+    .formulaire {
+      align-content: center; 
+      width: 100%;
+  }
+  .filtres {
+    flex-wrap: wrap;
+    width: 328px;
+  }
+  #Section_offers{
+    flex-direction: column;
+    width: 100%;
+  }
+  .Offers_Main{
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+  .HebergementMarseille{
+    width: 280px;
+  }
+  .MarseilleHotel1{
+    flex-wrap: wrap;
+    width: 335px;
+    height: 1254px;
+  }
+  .ActivitesMarseille{
+    font-size: 22px;
+    font-weight: bold;
+    
+    flex-direction: column;
+  }
+  #Section_Activite{
+    width: 100%;
+    height: 493px;
+    left: 50px;
+    top: 1112px;
+    
+
+}
+.CardActivity{
+  flex-direction: column;
+  width: 100%;
+  width: 334px;
+  height: 190px;
+}
+.picture{
+  width: 334px;
+  height: 190px;
+}
+.Rectangle25{
+  width: 100%;
+}
+}
