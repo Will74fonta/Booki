@@ -15,6 +15,10 @@ body {
     font-family: 'Raleway', sans-serif;
     box-sizing: border-box;
 }
+.link:link{
+  text-decoration: none;
+  color: #0065FC;
+}
 
 .Menu {
     position: absolute;
@@ -116,7 +120,9 @@ li {
   font-weight: 700;
   width: 132px;
   height: 49px;
-  
+}
+.glassButton{
+display: none;
 }
 .icon{
   border-radius: 15px 0px 0px 15px;
@@ -193,7 +199,7 @@ li {
     width: 54px;
     height: 21px;
   }
-  .filtre {
+  .Filtre {
     border: 2px solid #D9D9D9;
     border-radius: 35px;
     padding: 8px;
@@ -312,9 +318,7 @@ li {
     flex-direction: row;
     justify-content: space-between;
     width: 1340px;
-    height: 626px;
-    left: 50px;
-    top: 426px;
+    
   }
 
   .Offers_Main{
@@ -359,7 +363,7 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    margin-left: 44px;
+    margin-left: 70px;
   }
 
   .Offers_Sponsored{
@@ -401,9 +405,7 @@ li {
   }
   #Section_Activite{
     width: 1337px;
-    height: 493px;
-    left: 50px;
-    top: 1112px;
+    
     display: flex;
     flex-direction: column
   }
@@ -427,6 +429,7 @@ li {
     height: 199px;
     border-radius: 20px;
     box-shadow: 0px 3px 15px 0px #0000001A;
+    margin-bottom: 30px;
 
   }
   .Rectangle20{
@@ -484,7 +487,7 @@ li {
   flex-direction: row;
   width: 343px;
   height: 143px;
-  margin-top: 33px;
+  margin-bottom: 33px;
   box-shadow: 0px 3px 15px 0px #0000001A;
 }
 
@@ -529,7 +532,6 @@ li {
     margin-top: 61px;
     background: #F2F2F2;
     width: 1339px;
-    height: 225px;
     bottom: -10.84%;
   }
   .Footerblock{
@@ -544,6 +546,272 @@ li {
   font-size: 18px;
   font-weight: bold;
 }
+@media screen and (min-width: 768px) and (max-width: 992px) {
 
+  .container {
+      max-width: 1024px;
+      height: 276px;
+    }
+    .glassButton{
+      display: none;
+      }
+    .HebergementMarseille{
+      margin-bottom: 23px;
+    }
+    #Section_offers{
+      width: 880px;
+      flex-direction: column;
+    }
+   
+    .filtres {
+      width: 846px;
+      height: 50px;
+    }
+    .MarseilleHotel1{
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-left: 40px;
+      margin-right: 40px;
   
+    }
+    .Offers_Sponsored{
+      width: 883px;
+      height:278px;
+      margin-top: 53px;
+      flex-wrap: wrap;
+    }
+    .CardSponsored{
+      flex-direction: row;
+      height: 144px;
+      margin-right: 40px;
+      margin-left: 40px;
+  }
+  .prix{
+    margin: 7px 0px 0px 16px;
+  }
+  .Prix{
+    font-size: 13px;
+  }
+    .Rectangle24{
+      border-radius: 20px;
+      background-color: #FFFFFF;
+      display: flex;
+      flex-direction: row;
+    }
+    .Rectangle23{
+      width: 252px;
+      height: 144px;
+      margin-top: 26px;
+      margin-right: 23px;
+    }
+    .Imgpop{
+      width: 106px;
+      height: 144px;
+    }
+    .CardActivity{
+      width: 878px;
+      height: 331px;
+    }
+    #Section_Activite{
+      width: 878px;
+      right: 73px;
+      left: 73px;
+    }
+.Rectangle25{
+  width: 182px;
+  height: 267px;
+}
+.picture{
+  width: 182px;
+  height: 211px;
+  }
+  .Parc{
+    font-weight: bold;
+    margin-bottom: 21px;
+    margin-left: 19px;
+    margin-top: 9px;
+  }
+  .NotreDame{
+    margin-top: 9px;
+  }
+  .PlusPopulairesL1{
+    margin-right: 40px;
+  }
+  .Rectangle21{
+    width: 820px;
+    margin-left: 3.33%;
+    margin-right: 3.78%;
+    margin-top: 0%;
+  }
+  .footer{
+    align-items: center;
+    margin-top: 69px;
+  }
+  .Footerblock{
+    margin: 45px 40px 0px 50px;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .container {
+      max-width: 767px;
+    }
+    .header{
+      flex-direction: column;
+    }
+    .logo {
+      margin-top: 9.53px;
+      height: 20px;
+  }
+ 
+  .nav-link:hover {
+ text-decoration: none;
+ color: #0065fc;
+  border-top: none;
+  border-bottom: 2px;
+  }
+ 
+  .P1 {
+    margin-left: 10px;
+    align-content: center;
+    width: 100%;
+  }
+  h1 {
+    text-align: left;
+  }
+  p{
+    text-align: left;
+  }
+  .glassButton {
+    border: none;
+    background-color: #0065FC;
+    border-radius: 0px 15px 15px 0px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+  }
+  .button{
+    display: none;
+  }
+  .formulaire {
+    width: 334px;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+.champ{
+  width: 230px;
+  text-align: left;
+  padding-left: 5px;
+}
+.nav-link:hover {
+  border-top: -2px solid rgba(0, 101, 252, 1);
+  color: #0065fc;
+}
+.filtres {
+  flex-wrap: wrap;
+  height: 100px;
+  width: 334px;
+  flex-direction: column;
+  align-items: unset;
+}
+#Section_offers{
+  flex-direction: column-reverse;
+  width: 100%;
+  align-items: center;
+}
+.Rectangle23{
+width: 334px;
+}
+.Rectangle24{
+ align-items: flex-start;
+}
+.Rectangle19{
+  margin-top: 33px;
+  width: 334px;
+}
+.Rectangle20{
+  width: 334px;
+  margin-bottom: 12px;
+}
+.Offers_Main{
+  justify-content: center;
+  align-items: center;
+flex-direction: column;
+  flex-wrap: nowrap;
+  width: 98%;
+  border-radius: 0%;
+  background-color: #FFFFFF;
+  height: 0%;
+}
+.Imghebergement{
+  width: 335px;
+}
+.HebergementMarseille{
+  width: 334px;
+  text-align: left;
+  margin-left: 5px;
+}
+.MarseilleHotel1{
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 105px;
+  width: 100%;
+  align-items: center;
+}
+.Offers_Sponsored{
+  align-items: center;
+  width: 100%;
+  border-radius: 0%;
+}
+.PlusPopulairesL1 {
+  width: 334px;
+  margin-left: 15px;
+}
+.AffichePlus{
+  display: none;
+}
+.ActivitesMarseille{
+  flex-direction: column;
+  text-align: left;
+  width: 334px;
+}
+#Section_Activite{
+  width: 98%;
+  align-items: center;
+}
+.CardSponsored{
+  width: 100%;
+  align-items: center;
+}
+.CardActivity{
+flex-direction: column;
+align-items: center;
+}
+.picture{
+width: 100%;
+height: 190px;
+
+}
+.Rectangle25{
+width: 334px;
+height: auto;
+margin-bottom: 25px;
+}
+.Rectangle21{
+  flex-direction: column;
+  margin-top: 2%;
+}
+img{
+  object-fit: cover;
+}
+.footer{
+  margin-top: 80px;
+  height: auto;
+}
+}
 
