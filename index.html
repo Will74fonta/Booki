@@ -3,8 +3,6 @@
 <head>
    <meta charset="utf-8">
    <link rel="stylesheet" href="style.css">
-   <link rel="stylesheet" media="screen and (max-width:767px)" href="style_mobile.css">
-   <link rel="stylesheet" media=" (min-width: 768px) and (max-width: 992px)" href="style_tablette.css">
    <script src="https://kit.fontawesome.com/43c9024195.js" crossorigin="anonymous"></script>
    <title>Booki</title>
    <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -45,28 +43,33 @@
              <i class="fa-solid fa-location-dot fa-icon" style="color: black;"></i>
              <input class="champ" type="text" value="Marseille, France" >
              <input class="button" type="button" value="Rechercher" >
+             <button class="glassButton" type="button">
+					<i class="fas fa-search"></i>
+				</button>
          </form>
      <!-- Fin Formulaire -->
 
       <!--Filtres-->
       <div class="filtres">
 			<label class="titrefiltres">Filtres</label>
-			<div class="filtre1">
-				<i class="fa-solid fa-money-bill-wave fa-icon"></i>
-				<p class="nomfiltre">Économique</p>
-			</div>
-			<div class="filtre2">
-				<i class="fa-solid fa-person fa-icon"></i>
-				<p class="nomfiltre">Familial</p>
-			</div>
-			<div class="filtre3">
-				<i class="fa-solid fa-heart fa-icon"></i>
-				<p class="nomfiltre">Romantique</p>
-			</div>
-			<div class="filtre4">
-				<i class="fa-solid fa-dog fa-icon"></i>
-				<p class="nomfiltre">Animaux autorisés</p>
-			</div>
+			
+            <div class="filtre1">
+               <i class="fa-solid fa-money-bill-wave fa-icon"></i>
+               <p class="nomfiltre">Économique</p>
+            </div>
+            <div class="filtre2">
+               <i class="fa-solid fa-person fa-icon"></i>
+               <p class="nomfiltre">Familial</p>
+            </div>
+            <div class="filtre3">
+               <i class="fa-solid fa-heart fa-icon"></i>
+               <p class="nomfiltre">Romantique</p>
+            </div>
+            <div class="filtre4">
+               <i class="fa-solid fa-dog fa-icon"></i>
+               <p class="nomfiltre">Animaux autorisés</p>
+            </div>
+         
 		</div>
     <!-- Fin Filtres -->
 
@@ -84,23 +87,26 @@
          <div class="Offers_Main">
                <p class="HebergementMarseille">Hébergements à Marseille</p>
             <div class="MarseilleHotel1">
-               <div class="Rectangle19">
-                  <div class="Rectangle20">
-                     <img src="Images/AubergeLaCanebiere.png" alt="Auberge La Canebière">
-                     <p class="AubergedelaCanebière">Auberge La Canebière</p>
-                     <p class="prix">Nuit à partir de 25<strong>€</strong></p>
-                     <div class="Stars">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star" style="color: #f2f2f2;"></i>
+               <a class="link" href="#">
+                  <div class="Rectangle19">
+                     <div class="Rectangle20">
+                        <img class="Imghebergement" src="Images/AubergeLaCanebiere.png" alt="Auberge La Canebière">
+                        <p class="AubergedelaCanebière">Auberge La Canebière</p>
+                        <p class="prix">Nuit à partir de 25<strong>€</strong></p>
+                        <div class="Stars">
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star" style="color: #f2f2f2;"></i>
+                        </div>
                      </div>
                   </div>
-               </div>
+               </a>
+               <a class="link" href="#">
                <div class="Rectangle19">
                   <div class="Rectangle20">
-                     <img src="Images/HotelduPort.png" alt="Hotel du Port">
+                     <img class="Imghebergement" src="Images/HotelduPort.png" alt="Hotel du Port">
                      <p class="AubergedelaCanebière">Hôtel du Port</p>
                      <p class="prix">Nuit à partir de 52<strong>€</strong></p>
                      <div class="Stars">
@@ -112,9 +118,11 @@
                      </div>
                   </div>
                </div>
+            </a>
+            <a class="link" href="#">
                <div class="Rectangle19">
                   <div class="Rectangle20">
-                     <img src="Images/HotelLesMouettes.png" alt="Hotel Les Mouettes">
+                     <img class="Imghebergement" src="Images/HotelLesMouettes.png" alt="Hotel Les Mouettes">
                      <p class="AubergedelaCanebière">Hôtel Les Mouettes</p>
                      <p class="prix">Nuit à partir de 76<strong>€</strong></p>
                      <div class="Stars">
@@ -126,23 +134,27 @@
                      </div>
                   </div>
                </div>
-               <div class="Rectangle19">
-                  <div class="Rectangle20">
-                     <img src="Images/HoteldelaMer.png" alt="Hôtel de la Mer">
-                     <p class="AubergedelaCanebière">Hôtel de la Mer</p>
-                     <p class="prix">Nuit à partir de 46<strong>€</strong></p>
-                     <div class="Stars">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star" style="color: #f2f2f2;"></i>
+            </a>
+            <a class="link" href="#">
+                  <div class="Rectangle19">
+                     <div class="Rectangle20">
+                        <img class="Imghebergement" src="Images/HoteldelaMer.png" alt="Hôtel de la Mer">
+                        <p class="AubergedelaCanebière">Hôtel de la Mer</p>
+                        <p class="prix">Nuit à partir de 46<strong>€</strong></p>
+                        <div class="Stars">
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star" style="color: #f2f2f2;"></i>
+                        </div>
                      </div>
                   </div>
-               </div>
+               </a>
+               <a class="link" href="#">
                <div class="Rectangle19">
                   <div class="Rectangle20">
-                     <img src="Images/AubergeLePanier.png" alt="Auberge Le Panier">
+                     <img class="Imghebergement" src="Images/AubergeLePanier.png" alt="Auberge Le Panier">
                      <p class="AubergedelaCanebière">Auberge Le Panier</p>
                      <p class="prix">Nuit à partir de 23<strong>€</strong></p>
                      <div class="Stars">
@@ -154,9 +166,11 @@
                      </div>
                   </div>
                </div>
+            </a>
+            <a class="link" href="#">
                <div class="Rectangle19">
                   <div class="Rectangle20">
-                     <img src="Images/HotelChezAmina.png" alt="Hôtel Chez Amina">
+                     <img class="Imghebergement" src="Images/HotelChezAmina.png" alt="Hôtel Chez Amina">
                      <p class="AubergedelaCanebière">Hôtel Chez Amina</p>
                      <p class="prix">Nuit à partir de 96<strong>€</strong></p>
                      <div class="Stars">
@@ -168,12 +182,12 @@
                      </div>
                   </div>
                </div>
-            </div>
-            <a href="#">
-               <p class="AffichePlus">Afficher Plus</p>
             </a>
                
-           
+            </div>
+            <a class="link" href="#">
+               <p class="AffichePlus">Afficher Plus</p>
+            </a>
          </div>
          <!-- Plus Populaires -->
          <div class="Offers_Sponsored">
@@ -181,14 +195,32 @@
                <p class="Pluspopulaires">Les Plus Populaires</p>
                <i class="fa-solid fa-chart-line fa-icon"></i>
             </div>
-            
             <div class="CardSponsored">
-               <div class="Rectangle23">
-                  <div class="Rectangle24">
-                     <img src="Images/HotelleSoleil.png" alt="Hôtel Le Soleil du Matin">
+               <a class="link" href="#">
+                  <div class="Rectangle23">
+                     <div class="Rectangle24">
+                        <img class="Imgpop" src="Images/HotelleSoleil.png" alt="Hôtel Le Soleil du Matin">
+                        <div class="TextRectangle24">
+                           <p class="Chambre">Hôtel Le soleil du matin</p>
+                           <p class="Prix">Nuit a partir de 128<strong>€</strong></p>
+                           <div class="Stars1">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star" style="color: #f2f2f2;"></i>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </a>
+               <a class="link" href="#">
+                  <div class="Rectangle23">
+                     <div class="Rectangle24"></div>
+                     <img class="Imgpop" src="Images/ChambreHotes.png" alt="Chambres d'Hôtes Au Coeur de l'Eau">
                      <div class="TextRectangle24">
-                        <p class="Chambre">Hôtel Le soleil du matin</p>
-                        <p class="Prix">Nuit a partir de 128<strong>€</strong></p>
+                        <p class="Chambre">Chambres d’hôtes Au cœur de l’eau</p>
+                        <p class="Prix">Nuit a partir de 71<strong>€</strong></p>
                         <div class="Stars1">
                            <i class="fa-solid fa-star"></i>
                            <i class="fa-solid fa-star"></i>
@@ -198,41 +230,27 @@
                         </div>
                      </div>
                   </div>
-               </div>
-               <div class="Rectangle23">
-                  <div class="Rectangle24"></div>
-                  <img src="Images/ChambreHotes.png" alt="Chambres d'Hôtes Au Coeur de l'Eau">
-                  <div class="TextRectangle24">
-                     <p class="Chambre">Chambres d’hôtes Au cœur de l’eau</p>
-                     <p class="Prix">Nuit a partir de 71<strong>€</strong></p>
-                     <div class="Stars1">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star" style="color: #f2f2f2;"></i>
-                     </div>
-                        
-                  </div>
-                  
-               </div>
-               <div class="Rectangle23">
-                  <div class="Rectangle24">
-                     <img src="Images/HotelBleu.png" alt="Hôtel Bleu et Blanc">
-                     <div class="TextRectangle24">
-                        <p class="Chambre">Hôtel Bleu et Blanc</p>
-                        <p class="Prix">Nuit a partir de 68<strong>€</strong></p>
-                        <div class="Stars1">
-                           <i class="fa-solid fa-star"></i>
-                           <i class="fa-solid fa-star"></i>
-                           <i class="fa-solid fa-star"></i>
-                           <i class="fa-solid fa-star"></i>
-                           <i class="fa-solid fa-star" style="color: #f2f2f2;"></i>
+               </a>
+               <a class="link" href="#">
+                  <div class="Rectangle23">
+                     <div class="Rectangle24">
+                        <img class="Imgpop" src="Images/HotelBleu.png" alt="Hôtel Bleu et Blanc">
+                        <div class="TextRectangle24">
+                           <p class="Chambre">Hôtel Bleu et Blanc</p>
+                           <p class="Prix">Nuit a partir de 68<strong>€</strong></p>
+                           <div class="Stars1">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star" style="color: #f2f2f2;"></i>
+                           </div>
                         </div>
+                       
                      </div>
-                    
                   </div>
-               </div>
+               </a>
+               
             </div>
          </div>
          <!-- Fin Plus Populaires -->
@@ -243,25 +261,25 @@
          <p class="ActivitesMarseille">Activités à Marseille</p>
          <div class="CardActivity">
             <div class="Rectangle25">
-               <a href="#">
+               <a class="link" href="#">
                <img class="picture" src="Images/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux-Port">
                <p class="VieuxPort">Vieux-Port</p>
             </a>
             </div>
             <div class="Rectangle25">
-               <a href="#">
+               <a class="link" href="#">
                <img class="picture" src="Images/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues">
                <p class="Fort">Fort de Pomègues</p>
             </a>
             </div>
             <div class="Rectangle25">
-               <a href="#">
+               <a class="link" href="#">
             <img class="picture" src="Images/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc National des Calanques">
             <p class="Parc">Parc National des Calanques</p>
          </a>
             </div>
             <div class="Rectangle25">
-               <a href="#">
+               <a class="link" href="#">
                <img class="picture" src="Images/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-De-La-Garde">
                <p class="NotreDame">Notre-Dame-De-La-Garde</p>
             </a>
@@ -276,22 +294,22 @@
             <div class="Footerblock">
                <label class="titre5">À propos</label>
                <br>
-               <a href="#">
+               <a class="link" href="#">
                   Fonctionnement du site<br >
                </a>
-               <a href="#">
+               <a class="link" href="#">
 				Conditions générales<br >
          </a>
-         <a href="#">
+         <a class="link" href="#">
             Données et confidentialité
          </a>
             </div>
             <div class="Footerblock">
                <label class="titre5">Nos Hébergements</label>
-              <a href="#">
+               <a class="link" href="#">
                <br>Charte qualité<br >
               </a>
-              <a href="#">
+              <a class="link" href="#">
                Proposer votre hôtel
               </a>
 			
@@ -299,10 +317,10 @@
             <div class="Footerblock">
                <label class="titre5">Assistance</label>
                <br>
-               <a href="#">
+               <a class="link" href="#">
                   Centre d'aide<br >
                </a>
-               <a href="#">
+               <a class="link" href="#">
                   Nous contacter<br >
                </a>
             </div>
