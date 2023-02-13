@@ -1,16 +1,21 @@
 * {
     box-sizing: border-box;
     font-family: "Raleway"; 
+    margin: 0;
+    padding: 0;
   }
   .container {
     max-width: 1400px;
-    margin: auto;
+    margin-left: 50px;
+    margin-left: 50px;
   }
   .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1400px;
   }
+  
 body {
     font-family: 'Raleway', sans-serif;
     box-sizing: border-box;
@@ -32,17 +37,19 @@ body {
 }
 .logo {
     height: 19px;
-    margin-top: 35px;
+    margin-top: 1px;
 }
 h1 {
   font-size: 22px;
+  padding-top: 63px;
+  padding-bottom: 13px;
 }
 h2 {
   font-size: 16px;
 }
 p {
   font-size: 16px;
-  
+  margin-top: 16px;
 }
 .hebergements {
     position: absolute;
@@ -61,17 +68,24 @@ p {
     font-weight: 400;
     text-align: center;
 }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  float: right;
+ 
+}
 .nav.item {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
 }
 .nav-link {
-    color: #0065FC;
+    color:black;
     text-decoration: none;
 }
+
+
 .nav-link:hover {
-  
   border-top: 2px solid rgba(0, 101, 252, 1);
   color: #0065fc;
 }
@@ -105,6 +119,7 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .button {
@@ -137,15 +152,7 @@ display: none;
   padding-top: 14px;
 }
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    float: right;
-    width: 381px;
-    height: 19px;
-    left: 982px;
-    top: 48px;
-}
+
 
 .FilterBar  {
     box-sizing: border-box;
@@ -200,21 +207,18 @@ display: none;
     height: 21px;
   }
   .Filtre {
-    border: 2px solid #D9D9D9;
-    border-radius: 35px;
-    padding: 8px;
-    margin-left: 40px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     height: 50px;
     align-items: center;
+    margin-left: 40px;
   }
   
   .filtres {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     width: 914px;
     height: 50px;
@@ -239,6 +243,7 @@ display: none;
     height: 48px;
     border: 2px solid #D9D9D9;
     border-radius: 35px;
+    margin-left: 20px;
   }
   .filtre1:hover {
     background: #DEEBFF;
@@ -251,6 +256,7 @@ display: none;
     height: 48px;
     border: 2px solid #D9D9D9;
     border-radius: 35px;
+    margin-left: 20px;
   }
   .filtre2:hover {
     background: #DEEBFF;
@@ -263,6 +269,7 @@ display: none;
     height: 48px;
     border: 2px solid #D9D9D9;
     border-radius: 35px;
+    margin-left: 20px;
   }
   .filtre3:hover {
     background: #DEEBFF;
@@ -275,6 +282,7 @@ display: none;
     height: 50px;
     border: 2px solid #D9D9D9;
     border-radius: 35px;
+    margin-left: 20px;
   }
   .filtre4:hover {
     background: #DEEBFF;
@@ -306,12 +314,14 @@ display: none;
     left: 35px;
     top: 3px;
     margin-left: 10px;
+    margin-top: 0px;
   }
   #info {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     margin-top: 20px;
+    padding-bottom: 17px;
   }
   #Section_offers{
     display: flex;
@@ -386,6 +396,7 @@ display: none;
     font-size: 22px;
     font-weight: bold;
     width: 205px;
+    
   }
   .Stars{
     display: flex;
@@ -414,6 +425,7 @@ display: none;
     font-weight: bold;
     display: flex;
     flex-direction: row;
+    margin-bottom: 19px;
   }
   .CardActivity{
     display: flex;
@@ -523,7 +535,7 @@ display: none;
     align-items: center;
     margin-top: 61px;
     height: 191px;
-    
+    width: 97%;
   }
   .Rectangle21{
     display: flex;
@@ -549,8 +561,12 @@ display: none;
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
   .container {
-      max-width: 1024px;
-      height: 276px;
+      max-width: 992px;
+     margin-left: 50px;
+     margin-right: 50px;
+    }
+    .header{
+      width: 99%;
     }
     .glassButton{
       display: none;
@@ -558,34 +574,69 @@ display: none;
     .HebergementMarseille{
       margin-bottom: 23px;
     }
+    
     #Section_offers{
-      width: 880px;
+      width: 99%;
       flex-direction: column;
     }
-   
+    
+   #info{
+    width: 100%;
+    padding-bottom: 17px;
+   }
+   .Filtre{
+    margin-left: 5px;
+   }
     .filtres {
-      width: 846px;
+      width: 100%;
       height: 50px;
+    }
+    .filtre1{
+      width: 25%;
+      justify-content: flex-start;
+      margin-left: 10px;
+    }
+    .filtre2{
+      width: 20%;
+      justify-content: flex-start;
+      margin-left: 10px;
+    }
+    .filtre3{
+      width: 20%;
+      justify-content: flex-start;
+      margin-left: 10px;
+    }
+    .filtre4{
+      width: 30%;
+      justify-content: flex-start;
+      margin-left: 10px;
     }
     .MarseilleHotel1{
       flex-direction: row;
       justify-content: space-around;
       flex-wrap: wrap;
-      margin-left: 40px;
-      margin-right: 40px;
-  
+      margin-left: 0px;
+      margin-right: 0px;
     }
+    
     .Offers_Sponsored{
-      width: 883px;
+      width: 99%;
       height:278px;
       margin-top: 53px;
       flex-wrap: wrap;
     }
+    .Offers_Main {
+      width: 99%;
+    }
     .CardSponsored{
       flex-direction: row;
       height: 144px;
-      margin-right: 40px;
-      margin-left: 40px;
+      margin-right: 0px;
+      margin-left: 0px;
+      justify-content: space-around;
+  }
+  .AffichePlus{
+    width: 768px;
   }
   .prix{
     margin: 7px 0px 0px 16px;
@@ -603,18 +654,18 @@ display: none;
       width: 252px;
       height: 144px;
       margin-top: 26px;
-      margin-right: 23px;
+     
     }
     .Imgpop{
       width: 106px;
       height: 144px;
     }
     .CardActivity{
-      width: 878px;
+      width: 100%;
       height: 331px;
     }
     #Section_Activite{
-      width: 878px;
+      width: 98%;
       right: 73px;
       left: 73px;
     }
@@ -636,17 +687,17 @@ display: none;
     margin-top: 9px;
   }
   .PlusPopulairesL1{
-    margin-right: 40px;
+    margin-right: 0px;
+    width: 98%;
   }
   .Rectangle21{
-    width: 820px;
-    margin-left: 3.33%;
-    margin-right: 3.78%;
+    width: 100%;
     margin-top: 0%;
   }
   .footer{
     align-items: center;
     margin-top: 69px;
+    width: 99%;
   }
   .Footerblock{
     margin: 45px 40px 0px 50px;
@@ -656,22 +707,54 @@ display: none;
 @media screen and (max-width: 767px){
   .container {
       max-width: 767px;
+      margin-right: 10px;
+      margin-left: 10px;
     }
     .header{
       flex-direction: column;
+      margin-bottom: 31px;
+      width: 100%;
     }
     .logo {
       margin-top: 9.53px;
-      height: 20px;
+      height: 30px;
+      margin-bottom: 30px;
   }
- 
+  ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+    
+    padding-bottom: 2px;
+    width: 100%;
+    color: #f2f2f2;
+}
+.P1{
+  width: 99%;
+}
+  li{
+    width: 100%;
+  }
+  .nav-link {
+    font-size: 25px;
+
+  }
   .nav-link:hover {
- text-decoration: none;
- color: #0065fc;
-  border-top: none;
-  border-bottom: 2px;
+    border-top: 0px;
+    border-bottom: 2px solid #034fc1;
   }
+ .nav.item:hover {
+  border-top: 0px;
+    border-bottom: 2px solid #034fc1;
+ }
+    
  
+
+  .navbar {
+    width: 100%;
+    justify-content: center;
+  }
   .P1 {
     margin-left: 10px;
     align-content: center;
@@ -679,9 +762,14 @@ display: none;
   }
   h1 {
     text-align: left;
+    width: 95%;
+    
+    padding-top: 31px;
   }
   p{
     text-align: left;
+    width: 100%;
+    
   }
   .glassButton {
     border: none;
@@ -698,25 +786,61 @@ display: none;
     display: none;
   }
   .formulaire {
-    width: 334px;
-    margin-left: 6%;
-    margin-right: 6%;
+    width: 330px;
+    height: 50px;
+    
 }
 .champ{
   width: 230px;
   text-align: left;
   padding-left: 5px;
 }
-.nav-link:hover {
-  border-top: -2px solid rgba(0, 101, 252, 1);
-  color: #0065fc;
-}
+
 .filtres {
   flex-wrap: wrap;
   height: 100px;
-  width: 334px;
-  flex-direction: column;
-  align-items: unset;
+  width: 80%;
+}
+.Filtre {
+  flex-wrap: wrap;
+  margin-left: 0px;
+  height: 117px;
+  width: 95%;
+  justify-content: space-between;
+}
+.nomfiltre {
+font-size: 11px;
+align-items: normal;
+}
+.titrefiltres {
+  margin-bottom: 15px;
+  
+}
+.filtre1{
+  margin-left: 0px;
+  width: 45%;
+  height: 50px;
+}
+.filtre2{
+  width: 45%;
+  margin-left: 0px;
+  height: 50px;
+  justify-content: flex-start;
+}
+.filtre3{
+  width: 45%;
+  margin-left: 0px;
+  height: 50px;
+}
+.filtre4{
+  width: 45%;
+  margin-left: 0px;
+  height: 50px;
+}
+#info {
+  padding-top: 50px;
+  width: 90%;
+  padding-bottom: 17px;
 }
 #Section_offers{
   flex-direction: column-reverse;
@@ -751,7 +875,7 @@ flex-direction: column;
   width: 335px;
 }
 .HebergementMarseille{
-  width: 334px;
+  width: 344px;
   text-align: left;
   margin-left: 5px;
 }
@@ -760,17 +884,19 @@ flex-direction: column;
   flex-direction: column;
   justify-content: center;
   margin-bottom: 105px;
-  width: 100%;
+  width: 95%;
   align-items: center;
+  margin-right: 0%;
+  margin-left: 0%;
 }
 .Offers_Sponsored{
   align-items: center;
-  width: 100%;
+  width: 98%;
   border-radius: 0%;
 }
 .PlusPopulairesL1 {
   width: 334px;
-  margin-left: 15px;
+  
 }
 .AffichePlus{
   display: none;
@@ -778,10 +904,11 @@ flex-direction: column;
 .ActivitesMarseille{
   flex-direction: column;
   text-align: left;
-  width: 334px;
+  width: 80%;
+  margin-bottom: 19px;
 }
 #Section_Activite{
-  width: 98%;
+  width: 99%;
   align-items: center;
 }
 .CardSponsored{
@@ -791,6 +918,7 @@ flex-direction: column;
 .CardActivity{
 flex-direction: column;
 align-items: center;
+width: 100%;
 }
 .picture{
 width: 100%;
@@ -798,13 +926,14 @@ height: 190px;
 
 }
 .Rectangle25{
-width: 334px;
+width: 90%;
 height: auto;
 margin-bottom: 25px;
 }
 .Rectangle21{
   flex-direction: column;
   margin-top: 2%;
+  width: 100%;
 }
 img{
   object-fit: cover;
@@ -812,6 +941,10 @@ img{
 .footer{
   margin-top: 80px;
   height: auto;
+  width: 100%;
 }
+.Footerblock{
+  width: 100%;
 }
 
+}
