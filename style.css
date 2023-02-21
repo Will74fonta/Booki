@@ -64,9 +64,9 @@ p {
     text-align: center;
 }
 .Imgpop{
-  
-  height: 144px;
   object-fit: cover;
+  height: 144px;
+  
 }
 .activites {
     color: black;
@@ -105,6 +105,10 @@ li {
     display: flex;
     justify-content: space-between;
 }
+li:hover {
+  
+    border-top: 2px solid #034fc1;
+ }
 .MainLocation {
     position: absolute;
     width: 332px;
@@ -341,29 +345,30 @@ display: none;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 880px;
-    height: 626px;
+    width: 70%;
+    
     left: 50px;
     top: 426px;
     background: #F2F2F2;
     border-radius: 20px;
+    margin-right: 30px;
   }
 
   .HebergementMarseille{
-    width: 880px;
+    width: 100%;
     font-size: 22px;
     font-weight: bold;
     margin-top: 42px;
     margin-left: 40px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
   }
 .MarseilleHotel1{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
   
 }
 .MarseilleHotel2{
@@ -371,21 +376,26 @@ display: none;
   flex-direction: row;
   justify-content: space-between;
 }
+.Affiche{
+  width: 100%;
+  text-decoration: none;
+}
   .AffichePlus{
-    width: 880px;
+    width: 50%;
     font-size: 18px;
     font-weight: bold;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    margin-left: 70px;
+    justify-content: left;
+    margin-left: 20px;
+    margin-bottom: 10px;
   }
 
   .Offers_Sponsored{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 420px;
+    width: 30%;
     height: 625px;
     background: #F2F2F2;
     border-radius: 20px;
@@ -394,13 +404,15 @@ display: none;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-left: 37px;
-  margin-right: 14px;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 100%;
+  margin-top: 40px;
 }
   .Pluspopulaires{
     font-size: 22px;
     font-weight: bold;
-    width: 205px;
+    width: 90%;
     
   }
   .Stars{
@@ -498,6 +510,15 @@ display: none;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
+
+}
+.Cardlink{
+  text-decoration: none;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  
 }
 .Rectangle23{
   border-radius: 20px;
@@ -508,6 +529,7 @@ display: none;
   height: 143px;
   margin-bottom: 33px;
   box-shadow: 0px 3px 15px 0px #0000001A;
+  align-items: center;
 }
 
 .Rectangle24{
@@ -516,13 +538,22 @@ display: none;
   display: flex;
   flex-direction: row;
 }
+.TextRectangle24{
+  width: 60%;
+  margin-left: 10px;
+}
 .Chambre{
   font-size: 16px;
   font-weight: bold;
+  margin-right: 5px;
 }
 .prix{
   font-size: 14px;
   margin: 9px 0px 0px 16px;
+}
+.prix1{
+  font-size: 14px;
+  margin-top: 5px;
 }
 .Rectangle25{
   display: flex;
@@ -558,7 +589,7 @@ display: none;
     flex-direction: column;
     align-items: flex-start;
     line-height: 2;
-    margin: 50px 200px 0px 50px;
+    margin: 50px 80px 0px 50px;
     
   }
 .titre5{
@@ -594,9 +625,10 @@ display: none;
    .Filtre{
     margin-left: 0px;
     justify-content: flex-start;
+    width: 100%;
    }
     .filtres {
-      width: 99%;
+      width: 100%;
       height: 50px;
     }
     .titrefiltres{
@@ -606,22 +638,26 @@ display: none;
     .filtre1{
       width: 25%;
       justify-content: flex-start;
-      margin-left: 10px;
+      margin-left: 5px;
+    }
+    .nomfiltre {
+      font-size: 12px;
+      margin-right: 4px;
     }
     .filtre2{
       width: 18%;
       justify-content: flex-start;
-      margin-left: 10px;
+      margin-left: 5px;
     }
     .filtre3{
       width: 20%;
       justify-content: flex-start;
-      margin-left: 10px;
+      margin-left: 5px;
     }
     .filtre4{
       width: 30%;
       justify-content: flex-start;
-      margin-left: 10px;
+      margin-left: 5px;
     }
     .MarseilleHotel1{
       flex-direction: row;
@@ -643,23 +679,25 @@ display: none;
     }
     .CardSponsored{
       flex-direction: row;
-      height: 144px;
+      
       margin-right: 0px;
       margin-left: 0px;
       justify-content: space-around;
       width: 99%;
+      min-height: 144px;
   }
   .AffichePlus{
-    width: 700px;
-    padding-left: 5%;
+    width: 50%;
+  
     padding-bottom: 15px;
-    margin-left: 0px;
+    margin-left: 20px;
   }
   .prix{
     margin: 7px 0px 0px 16px;
   }
   .Chambre{
     font-size: 13px;
+    margin-top: 5px;
   }
   .Prix{
     font-size: 12px;
@@ -676,9 +714,11 @@ display: none;
       margin-top: 26px;
     }
     .Imgpop{
-      
-      height: 144px;
       object-fit: cover;
+      width: 100%;
+      border-radius: 15px 0px 15px 0px;
+      overflow: hidden;
+      height: 100%;
     }
     .TextRectangle24{
       width: 67%;
@@ -711,7 +751,8 @@ display: none;
   }
   .PlusPopulairesL1{
     margin-right: 0px;
-    width: 98%;
+    width: 97%;
+    margin-top: 0px;
   }
   .Rectangle21{
     width: 100%;
@@ -723,7 +764,7 @@ display: none;
     width: 99%;
   }
   .Footerblock{
-    margin: 45px 40px 0px 50px;
+    margin: 45px 10px 0px 10px;
   }
 }
 
@@ -749,7 +790,7 @@ display: none;
     list-style: none;
     align-items: center;
     
-    padding-bottom: 2px;
+    border-bottom: 3px solid;
     width: 100%;
     color: #f2f2f2;
 }
@@ -758,6 +799,8 @@ display: none;
 }
   li{
     width: 100%;
+    justify-content: center;
+    margin-left: 0px;
   }
   .nav-link {
     font-size: 25px;
@@ -765,14 +808,12 @@ display: none;
   }
   .nav-link:hover {
     border-top: 0px;
-    border-bottom: 2px solid #034fc1;
+    border-bottom: 0px solid #034fc1;
   }
- .nav.item:hover {
+ li:hover {
   border-top: 0px;
-    border-bottom: 2px solid #034fc1;
+    border-bottom: 3px solid #034fc1;
  }
-    
- 
 
   .navbar {
     width: 100%;
@@ -822,7 +863,7 @@ display: none;
 .filtres {
   flex-wrap: wrap;
   height: 100px;
-  width: 80%;
+  width: 99%;
 }
 .Filtre {
   flex-wrap: wrap;
@@ -893,6 +934,7 @@ flex-direction: column;
   border-radius: 0%;
   background-color: #FFFFFF;
   height: 0%;
+  margin-right: 0px;
 }
 .Imghebergement{
   width: 335px;
