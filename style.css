@@ -20,6 +20,7 @@
 body {
     font-family: 'Raleway', sans-serif;
     box-sizing: border-box;
+    max-width: 1400px;
 }
 .link:link{
   text-decoration: none;
@@ -77,7 +78,6 @@ p {
   display: flex;
   justify-content: space-between;
   float: right;
- 
 }
 .nav.item {
     display: flex;
@@ -88,7 +88,6 @@ p {
     color:black;
     text-decoration: none;
 }
-
 
 .nav-link:hover {
   border-top: 2px solid rgba(0, 101, 252, 1);
@@ -160,9 +159,6 @@ display: none;
   flex-direction: row;
   padding-top: 14px;
 }
-
-
-
 .FilterBar  {
     box-sizing: border-box;
     display: flex;
@@ -171,8 +167,8 @@ display: none;
     width: 914px;
     height: 50px;
     left: 62px;
-    
 }
+
 .Infobar {
     position: absolute;
     width: 447px;
@@ -337,7 +333,6 @@ display: none;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    
   }
 
   .Offers_Main{
@@ -346,7 +341,6 @@ display: none;
     flex-wrap: wrap;
     justify-content: space-around;
     width: 70%;
-    
     left: 50px;
     top: 426px;
     background: #F2F2F2;
@@ -404,17 +398,18 @@ display: none;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-left: 5%;
-  margin-right: 5%;
+  
   width: 100%;
-  margin-top: 40px;
+  margin-top: 33px;
 }
   .Pluspopulaires{
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
-    width: 90%;
-    
+    width: 94%;
+    padding-left: 5%;
+    margin-top: 8px;
   }
+  
   .Stars{
     display: flex;
     flex-direction: row;
@@ -424,7 +419,7 @@ display: none;
   .Stars1{
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
+    margin-top: 20%;
   }
   .fa-star{
     color: #0065FC;
@@ -459,6 +454,7 @@ display: none;
     border-radius: 20px;
     box-shadow: 0px 3px 15px 0px #0000001A;
     margin-bottom: 30px;
+    
   }
   .Imghebergement{
     object-fit: cover;
@@ -564,6 +560,7 @@ display: none;
   border-color: #F2F2F2;
   box-shadow: 0px 3px 15px 0px #0000001A;
   border-radius: 20px 20px 20px 20px;
+  margin-right: 5px;
 }
 
   .footer{
@@ -614,7 +611,7 @@ display: none;
     }
     
     #Section_offers{
-      width: 99%;
+      width: 100%;
       flex-direction: column;
     }
     
@@ -645,17 +642,17 @@ display: none;
       margin-right: 4px;
     }
     .filtre2{
-      width: 18%;
-      justify-content: flex-start;
-      margin-left: 5px;
-    }
-    .filtre3{
       width: 20%;
       justify-content: flex-start;
       margin-left: 5px;
     }
+    .filtre3{
+      width: 21%;
+      justify-content: flex-start;
+      margin-left: 5px;
+    }
     .filtre4{
-      width: 30%;
+      width: 31%;
       justify-content: flex-start;
       margin-left: 5px;
     }
@@ -676,10 +673,10 @@ display: none;
     .Offers_Main {
       width: 99%;
       height: auto;
+      margin-right: 0px;
     }
     .CardSponsored{
       flex-direction: row;
-      
       margin-right: 0px;
       margin-left: 0px;
       justify-content: space-around;
@@ -688,7 +685,6 @@ display: none;
   }
   .AffichePlus{
     width: 50%;
-  
     padding-bottom: 15px;
     margin-left: 20px;
   }
@@ -754,6 +750,10 @@ display: none;
     width: 97%;
     margin-top: 0px;
   }
+
+  .Pluspopulaires{
+    padding-left: 2%;
+  }
   .Rectangle21{
     width: 100%;
     margin-top: 0%;
@@ -789,7 +789,6 @@ display: none;
     justify-content: center;
     list-style: none;
     align-items: center;
-    
     border-bottom: 3px solid;
     width: 100%;
     color: #f2f2f2;
@@ -827,7 +826,6 @@ display: none;
   h1 {
     text-align: left;
     width: 95%;
-    
     padding-top: 31px;
   }
   p{
@@ -852,7 +850,6 @@ display: none;
   .formulaire {
     width: 330px;
     height: 50px;
-    
 }
 .champ{
   width: 230px;
@@ -969,7 +966,7 @@ flex-direction: column;
 .ActivitesMarseille{
   flex-direction: column;
   text-align: left;
-  width: 80%;
+  width: 90%;
   margin-bottom: 19px;
 }
 #Section_Activite{
@@ -1011,5 +1008,4 @@ img{
 .Footerblock{
   width: 70%;
 }
-
 }
