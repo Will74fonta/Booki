@@ -21,10 +21,11 @@ body {
     font-family: 'Raleway', sans-serif;
     box-sizing: border-box;
     max-width: 1400px;
+    margin: auto;
 }
-.link:link{
+.link{
   text-decoration: none;
-  color: #0065FC;
+  color: black;
 }
 
 .Menu {
@@ -44,11 +45,11 @@ body {
 h1 {
   font-size: 22px;
   padding-top: 63px;
-  padding-bottom: 13px;
 }
 h2 {
   font-size: 16px;
 }
+
 p {
   font-size: 16px;
   margin-top: 16px;
@@ -67,8 +68,8 @@ p {
 .Imgpop{
   object-fit: cover;
   height: 144px;
-  
 }
+
 .activites {
     color: black;
     font-weight: 400;
@@ -88,7 +89,6 @@ p {
     color:black;
     text-decoration: none;
 }
-
 .nav-link:hover {
   border-top: 2px solid rgba(0, 101, 252, 1);
   color: #0065fc;
@@ -373,6 +373,7 @@ display: none;
 .Affiche{
   width: 100%;
   text-decoration: none;
+  color: #000000;
 }
   .AffichePlus{
     width: 50%;
@@ -514,7 +515,7 @@ display: none;
   display: flex;
   width: 100%;
   justify-content: center;
-  
+  color: #000000;
 }
 .Rectangle23{
   border-radius: 20px;
